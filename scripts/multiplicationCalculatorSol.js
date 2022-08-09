@@ -10,7 +10,7 @@ async function calculatorSol() {
   const myCalculator = await MyCalculator.connect(myAccount).deploy();
   await myCalculator.deployed();
 
-  const instance = "0xFD9C93635f53266edde1e66e6127b0b3Ba021C73"; // 이곳에 뺄셈 문제 인스턴스 컨트랙트 주소를 넣으세요
+  const instance = "0xF8Fd0FF8Ba5CFB37f16EeC3DE2E52287e7030390"; // 이곳에 뺄셈 문제 인스턴스 컨트랙트 주소를 넣으세요
   const MultiplicationCalculatorProblem = await ethers.getContractFactory(
     "MultiplicationCalculatorProblem"
   );
